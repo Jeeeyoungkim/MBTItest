@@ -69,6 +69,6 @@ function shareURL() {
 
 function shareMessage() {
   Kakao.Share.sendScrap({
-    requestUrl: "https://main--jocular-kulfi-3929a7.netlify.app",
+    requestUrl: "https://jocular-kulfi-3929a7.netlify.app",
   });
 }
