@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "NeoDunggeunmoPro-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/NeoDunggeunmoPro-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  font-family: "NeoDunggeunmoPro-Regular";
+}
+/* 
+body {
+  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+} */
+
+body {
+  background-image: url("./image/background.jpeg");
+}
+
+#main {
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
+}
+
+#qna {
+  display: none;
+}
+
+.qBox {
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+#result {
+  display: none;
+
+  background-color: white;
+  width: 80%;
+  text-align: center;
+  box-shadow: 5px 5px rgb(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.progress {
+  height: 30px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.progressBar {
+  height: 100%;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.share:hover {
+  background-color: black;
+  color: white;
+}
