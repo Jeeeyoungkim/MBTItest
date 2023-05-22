@@ -36,7 +36,7 @@ function next() {
     $(".explain").html(result[mbti]["explain"]);
     $("#result_img").attr("src", result[mbti]["img"]);
   } else {
-    $(".progressBar").attr("style", "width: calc(100 / 12 * " + num + "%)");
+    $(".progress-bar").attr("style", "width: calc(100 / 12 * " + num + "%)");
     $("#title").html(q[num]["title"]);
     $("#type").val(q[num]["type"]);
     $("#A").html(q[num]["A"]);
