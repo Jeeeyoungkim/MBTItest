@@ -5,13 +5,10 @@
   font-weight: normal;
   font-style: normal;
 }
+
 * {
   font-family: "NeoDunggeunmoPro-Regular";
 }
-/* 
-body {
-  background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
-} */
 
 body {
   background-image: url("./image/background.jpeg");
@@ -36,6 +33,10 @@ body {
   font-size: 20px;
 }
 
+.button-warp {
+  display: grid;
+}
+
 #result {
   display: none;
 
@@ -46,6 +47,8 @@ body {
   font-size: 20px;
 }
 
+#A:hover,
+#B:hover,
 .share:hover {
   background-color: black;
   color: white;
