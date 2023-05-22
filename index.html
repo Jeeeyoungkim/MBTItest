@@ -12,6 +12,20 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
+      integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="
+  https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js
+  "></script>
+
+    <script>
+      Kakao.init("143b680633b26c1b937802388fae35ce"); // 사용하려는 앱의 JavaScript 키 입력
+      console.log(Kakao.isInitialized());
+    </script>
   </head>
   <body>
     <div class="container">
@@ -83,19 +97,6 @@
     <input type="hidden" id="SN" value="0" />
     <input type="hidden" id="TF" value="0" />
     <input type="hidden" id="JP" value="0" />
-
-    <script src="
-https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js
-"></script>
-    <script
-      src="https://t1.kakaocdn.net/kakao_js_sdk/2.1.0/kakao.min.js"
-      integrity="sha384-dpu02ieKC6NUeKFoGMOKz6102CLEWi9+5RQjWSV0ikYSFFd8M3Wp2reIcquJOemx"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      Kakao.init("143b680633b26c1b937802388fae35ce"); // 사용하려는 앱의 JavaScript 키 입력
-      console.log(Kakao.isInitialized());
-    </script>
 
     <script src="./js/index.js"></script>
     <script src="./js/data.js"></script>
